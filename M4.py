@@ -21,6 +21,6 @@ for i in range(2, num):
 num = 100
 for i in range(0, num):
     print(num-i)
-
+ 
 
 
