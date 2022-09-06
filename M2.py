@@ -7,4 +7,3 @@ print(variable_de_tipo_str, type(variable_de_tipo_str))
 # Modifica la variable del anterior ejercicio en la consola de python y después muestrala por consola para ver la modificación de la variable.
 variable_de_tipo_str = int(10)
 print(variable_de_tipo_str, type(variable_de_tipo_str))
-#esto es una prueba no darle bola
