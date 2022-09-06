@@ -1,9 +1,6 @@
 # Escribe un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.
 
-edad = int(input('Cual es tu edad? \n'))
-from msilib.schema import Condition
-
-
+# edad = int(input('Cual es tu edad? \n'))
 def LEGAL_O_ILEGAL(edad):
     if edad >= 18:
         print('ya sos mayor :)')
@@ -11,8 +8,6 @@ def LEGAL_O_ILEGAL(edad):
         print('no sos mayor :(')
 
 # Escribe un programa capaz de mostrar todos los números impares desde un número de inicio y otro final.
-
-
 num = int(input('INTRODUCE EL NUMERO FINAL PARA SACAR IMPARES O PARES \n'))
 
 for i in range(2, num):
@@ -26,4 +21,6 @@ for i in range(2, num):
 num = 100
 for i in range(0, num):
     print(num-i)
-    
+
+
+
